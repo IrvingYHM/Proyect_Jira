@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
-
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +16,7 @@ function App() {
           <h1 className="text-4xl font-bold mb-4">Bienvenido a Mi Sitio Web</h1>
           <p>Este es un sitio web simple creado con React.</p>
         </main>
+        <Footer/>
       </div>
     </>
   );
