@@ -10,7 +10,7 @@ const Header = () => {
             <a href="#home" className="hover:underline">Inicio</a>
           </li>
           <li>
-            <a href="#about" className="hover:underline">Acerca de </a>
+            <a href="#about" className="hover:underline">Acerca </a>
           </li>
           <li>
             <a href="#services" className="hover:underline">Servicios</a>
